@@ -11,7 +11,7 @@ export default siteConfig({
   // basic site info (required)
   name: 'Next.js Notion Starter Kit',
   domain: 'laksmeesuon.',
-  author: 'Travis Fischer',
+  author: 'Laksmee Suon',
 
   // open graph metadata (optional)
   description: 'Example Next.js Notion Starter Kit Site',

@@ -52,8 +52,11 @@
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
   grid-gap: 6vmin;
   gap: 6vmin;
+  border: none;
 }
-
+.notion-collection-header {
+  display: none;
+}
 .notion-gallery-grid .notion-page-icon-inline {
   display: none;
 }
