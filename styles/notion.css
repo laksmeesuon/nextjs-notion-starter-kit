@@ -152,7 +152,9 @@
     padding-right: 2vw;
   }
 }
-
+.notion-inline-code {
+  color: #9d7054 !important;
+}
 @media only screen and (max-width: 600px) {
   .notion-search-button {
     display: none !important;
