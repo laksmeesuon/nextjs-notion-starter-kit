@@ -167,7 +167,9 @@
 .notion-title {
   display: block;
   text-align: center;
+  font-size: 2em;
 }
+
 
 .notion-collection-row {
   padding-bottom: 1em;
