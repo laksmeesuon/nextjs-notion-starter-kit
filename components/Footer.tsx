@@ -1,7 +1,13 @@
 import * as React from 'react'
 import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
-
+import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
+import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
+import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
+import { FaInstagram } from '@react-icons/all-files/fa/FaInstagram'
+import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
+import { FaEnvelopeOpenText } from '@react-icons/all-files/fa/FaEnvelopeOpenText'
+import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
 import { useDarkMode } from 'lib/use-dark-mode'
 import * as config from 'lib/config'
 
@@ -42,8 +48,79 @@ export const FooterImpl: React.FC = () => {
           </a>
         )}
       </div>
-      <div>
-      likesmeesoon 🦦
+
+      <div className={styles.social}>
+        {config.twitter && (
+          <a
+            className={styles.twitter}
+            href={`https://twitter.com/${config.twitter}`}
+            title={`Twitter @${config.twitter}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaTwitter />
+          </a>
+        )}
+
+        {config.zhihu && (
+          <a
+            className={styles.zhihu}
+            href={`https://zhihu.com/people/${config.zhihu}`}
+            title={`Zhihu @${config.zhihu}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaZhihu />
+          </a>
+        )}
+
+        {config.github && (
+          <a
+            className={styles.instagram}
+            href={`https://instagram.com/${config.github}`}
+            title={`Instagram @${config.github}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaInstagram />
+          </a>
+        )}
+
+        {config.linkedin && (
+          <a
+            className={styles.linkedin}
+            href={`https://www.linkedin.com/in/${config.linkedin}`}
+            title={`LinkedIn ${config.author}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaLinkedin />
+          </a>
+        )}
+
+        {config.newsletter && (
+          <a
+            className={styles.newsletter}
+            href={`mailto:${config.newsletter}`}
+            title={`E-mail ${config.author}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaEnvelopeOpenText />
+          </a>
+        )}
+
+        {config.youtube && (
+          <a
+            className={styles.youtube}
+            href={`https://www.youtube.com/${config.youtube}`}
+            title={`YouTube ${config.author}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaYoutube />
+          </a>
+        )}
       </div>
     </footer>
   )
