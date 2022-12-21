@@ -9,12 +9,12 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
+  name: 'Laksmee Suon - Portfolio',
   domain: 'laksmeesuon.',
   author: 'Laksmee Suon',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'I am the 👸🏼 when it comes to marketing.',
 
   // social usernames (optional)
   //twitter: 'transitive_bs',
