@@ -75,7 +75,7 @@ export const FooterImpl: React.FC = () => {
 
         {config.github && (
           <a
-            className={styles.instagram}
+            className={"footer-instagram"}
             href={`https://instagram.com/${config.github}`}
             title={`Instagram @${config.github}`}
             target='_blank'
