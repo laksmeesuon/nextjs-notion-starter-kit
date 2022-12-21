@@ -392,6 +392,10 @@
 .notion-page-icon-hero.notion-page-icon-image {
   left: 0 !important;
   margin-left: 0;
+  box-shadow: none;
+}
+.footer-instagram:hover {
+  color : #e4405f;
 }
 .notion-title {
   text-align: left;
