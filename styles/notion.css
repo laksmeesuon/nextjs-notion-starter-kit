@@ -404,3 +404,7 @@
 .notion-callout.notion-orange_background_co.notion-block-2c74955c81d84f94af97a90b8970e099 {
     width: 153px !important;
 }
+
+.notion-aside {
+  display: none!important;
+}
